@@ -1,4 +1,6 @@
-create database paymentapp;
+CREATE DATABASE paymentapp;
+
+USE paymentapp;
 
 CREATE TABLE `customers` (
   `id` varchar(255) NOT NULL PRIMARY KEY,
